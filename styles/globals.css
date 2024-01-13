@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Mukta&family=Poppins&family=Public+Sans:wght@300&family=Rubik&family=Ubuntu&family=Varela+Round&family=Work+Sans:ital,wght@0,400;0,500;1,300&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.gradient {
+  background: linear-gradient(to bottom, rgb(35, 35, 35), rgb(22, 22, 22));
+}
+
+.batman-gradient {
+  background: linear-gradient(
+    179deg,
+    rgb(110, 144, 242) 3.3%,
+    rgb(245, 193, 193) 100%
+  );
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 10px;
+}
+
+body {
+  @apply min-h-screen w-full scroll-m-0 overflow-x-hidden bg-mybg-dark px-9 pb-10 sm:px-14 md:px-24 lg:px-32;
+}
+
+.btn {
+  @apply w-24 cursor-pointer rounded-md bg-gray-light bg-opacity-30 px-3 py-1 backdrop-blur-md transition-all hover:bg-opacity-20;
+}
+
+.active {
+  @apply text-white;
+}
