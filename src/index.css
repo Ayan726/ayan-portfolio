@@ -35,7 +35,7 @@ body {
 }
 
 .btn {
-  @apply w-24 cursor-pointer rounded-md bg-gray-light bg-opacity-30 px-3 py-1 backdrop-blur-md transition-all hover:bg-opacity-20;
+  @apply w-24 cursor-pointer rounded-xl bg-gray-light bg-opacity-30 px-3 py-1 backdrop-blur-md transition-all hover:bg-opacity-20;
 }
 
 .active {

@@ -7,6 +7,7 @@ import Contact from "./pages/Contact.jsx";
 import Works from "./pages/Works.jsx";
 import Error from "./pages/Error.jsx";
 import Layout from "./components/Layout.jsx";
+import "./index.css";
 
 const router = createBrowserRouter([
   {

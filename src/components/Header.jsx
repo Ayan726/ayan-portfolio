@@ -27,6 +27,7 @@ const Header = () => {
           />
 
           <NavLink
+            onClick={() => setHidden(true)}
             to="/"
             className="cursor-pointer no-underline hover:text-white"
             activeclassname="active"
@@ -34,6 +35,7 @@ const Header = () => {
             Home
           </NavLink>
           <NavLink
+            onClick={() => setHidden(true)}
             to="/about"
             className="cursor-pointer no-underline hover:text-white"
             activeclassname="active"
@@ -41,6 +43,7 @@ const Header = () => {
             About
           </NavLink>
           <NavLink
+            onClick={() => setHidden(true)}
             to="/works"
             className="cursor-pointer no-underline hover:text-white"
             activeclassname="active"
@@ -48,6 +51,7 @@ const Header = () => {
             Works
           </NavLink>
           <NavLink
+            onClick={() => setHidden(true)}
             to="/contact"
             className="cursor-pointer no-underline hover:text-white"
             activeclassname="active"

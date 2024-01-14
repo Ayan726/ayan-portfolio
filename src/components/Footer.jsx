@@ -4,10 +4,13 @@ import variables from "../variables/variables";
 import EmailIcon from "@mui/icons-material/Email";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import PhoneIcon from "@mui/icons-material/Phone";
+import { MdEmail } from "react-icons/md";
+import { FaFacebook } from "react-icons/fa";
+import { FaPhone } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <div className="mb-16 mt-16 w-full border-t-[1.3px] border-white pt-3 text-center">
+    <div className="mt-16 w-full border-t-[1.3px] border-white pt-3 text-center">
       <NavLink
         to="/"
         className="w-24 -translate-y-[2px] cursor-pointer text-2xl font-bold no-underline hover:text-white"
@@ -48,21 +51,21 @@ const Footer = () => {
       <ul className="mt-5 flex items-center justify-center gap-4 rounded-full px-6 leading-3 text-white no-underline">
         <li
           onClick={() => window.open(variables.gmail)}
-          className="cursor-pointer rounded-full bg-white p-1 text-sm text-black"
+          className="cursor-pointer rounded-full bg-white p-[0.4rem] text-sm text-black"
         >
-          <EmailIcon />
+          <MdEmail className="text-2xl" />
         </li>
         <li
           onClick={() => window.open(variables.facebookURL, "_blank")}
-          className="cursor-pointer rounded-full bg-white p-1 text-sm text-black"
+          className="cursor-pointer rounded-full bg-white p-[0.4rem] text-sm text-black"
         >
-          <FacebookIcon />
+          <FaFacebook className="text-2xl" />
         </li>
         <li
           onClick={() => window.open(variables.phone)}
-          className="cursor-pointer rounded-full bg-white p-1 text-sm text-black"
+          className="cursor-pointer rounded-full bg-white p-[0.4rem] text-sm text-black"
         >
-          <PhoneIcon />
+          <FaPhone className="text-2xl" />
         </li>
       </ul>
     </div>
