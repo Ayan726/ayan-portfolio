@@ -33,7 +33,6 @@ const AboutContent = () => {
             design, I craft applications that stand out. Let's collaborate to
             bring your project to life and make an impact in the digital space.
             Ready to innovate together? 🚀
-            <br />
           </p>
         </SlideReveal>
       </div>
