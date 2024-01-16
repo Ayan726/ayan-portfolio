@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import Batman from "../assets/Batman-Cartoon-PNG-Photos.png";
+import { FaShare } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
+import Batman from "../assets/Batman-Cartoon-PNG-Photos.png";
 import Reveal from "./framerMotionComponents/Reveal";
-import share from "../assets/share.png";
 
 const WhoAmI = () => {
   const [hover, setHover] = useState(false);
@@ -39,14 +39,14 @@ const WhoAmI = () => {
           )}
         </div>
 
-        <img
-          src={share}
-          alt="redirect"
-          className="absolute bottom-4 right-6 h-6 cursor-pointer"
+        <button
+          className="absolute bottom-4 right-6 h-6 cursor-pointer rounded-full bg-gray-light bg-opacity-[0.15] p-[0.4rem] text-sm text-white backdrop-blur-md transition-all hover:bg-opacity-100 hover:text-black"
           onClick={() => {
             navigate("/about");
           }}
-        />
+        >
+          <FaShare />
+        </button>
 
         <h3 className="absolute bottom-3 left-6 text-lg font-semibold">
           Who am I ?

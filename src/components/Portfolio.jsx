@@ -1,8 +1,8 @@
 import React from "react";
-import Reveal from "./framerMotionComponents/Reveal";
-import dashboard from "../assets/dashboard.png";
-import share from "../assets/share.png";
+import { FaShare } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
+import dashboard from "../assets/dashboard.png";
+import Reveal from "./framerMotionComponents/Reveal";
 
 const Portfolio = () => {
   const navigate = useNavigate();
@@ -17,14 +17,14 @@ const Portfolio = () => {
           MY WORKS
         </h1>
 
-        <img
-          src={share}
-          alt="redirect"
-          className="absolute bottom-4 right-6 h-6 cursor-pointer"
+        <button
+          className="absolute bottom-4 right-6 h-6 cursor-pointer rounded-full bg-gray-light bg-opacity-[0.15] p-[0.4rem] text-sm text-white backdrop-blur-md transition-all hover:bg-opacity-100 hover:text-black"
           onClick={() => {
             navigate("/works");
           }}
-        />
+        >
+          <FaShare />
+        </button>
         <p className="absolute bottom-10 left-6 text-sm text-gray-txt">
           Showcase
         </p>

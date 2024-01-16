@@ -1,6 +1,6 @@
 import React from "react";
 import Reveal from "../components/framerMotionComponents/Reveal";
-import variables from "../variables/variables";
+import { variables } from "../variables/variables";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
 import { PiGithubLogoFill } from "react-icons/pi";
@@ -20,37 +20,61 @@ const Profiles = () => {
           onClick={() => window.open(variables.linkedInURL, "_blank")}
           className="flex cursor-pointer justify-center text-center"
         >
-          <FaLinkedinIn className="text-3xl" />
+          <div>
+            <div className="cursor-pointer rounded-full bg-gray-light bg-opacity-[0.15] p-[0.4rem] text-sm text-white backdrop-blur-md transition-all hover:bg-opacity-100 hover:text-black">
+              <FaLinkedinIn className="text-2xl" />
+            </div>
+          </div>
         </div>
         <div
           onClick={() => window.open(variables.instagramURL, "_blank")}
           className="flex cursor-pointer justify-center text-center"
         >
-          <FaInstagram className="text-3xl" />
+          <div>
+            <div className="cursor-pointer rounded-full bg-gray-light bg-opacity-[0.15] p-[0.4rem] text-sm text-white backdrop-blur-md transition-all hover:bg-opacity-100 hover:text-black">
+              <FaInstagram className="text-2xl" />
+            </div>
+          </div>
         </div>
         <div
           onClick={() => window.open(variables.githubURL, "_blank")}
           className="flex cursor-pointer justify-center text-center"
         >
-          <PiGithubLogoFill className="text-3xl" />
+          <div>
+            <div className="cursor-pointer rounded-full bg-gray-light bg-opacity-[0.15] p-[0.4rem] text-sm text-white backdrop-blur-md transition-all hover:bg-opacity-100 hover:text-black">
+              <PiGithubLogoFill className="text-2xl" />
+            </div>
+          </div>
         </div>
         <div
           onClick={() => window.open(variables.leetcodeURL, "_blank")}
           className="flex cursor-pointer justify-center text-center"
         >
-          <SiLeetcode className="text-3xl" />
+          <div>
+            <div className="cursor-pointer rounded-full bg-gray-light bg-opacity-[0.15] p-[0.4rem] text-sm text-white backdrop-blur-md transition-all hover:bg-opacity-100 hover:text-black">
+              <SiLeetcode className="text-2xl" />
+            </div>
+          </div>
         </div>
         <div
           onClick={() => window.open(variables.fiverrURL, "_blank")}
           className="flex cursor-pointer justify-center text-center"
         >
-          <SiFiverr className="text-3xl" />
+          <div>
+            <div className="cursor-pointer rounded-full bg-gray-light bg-opacity-[0.15] p-[0.4rem] text-sm text-white backdrop-blur-md transition-all hover:bg-opacity-100 hover:text-black">
+              <SiFiverr className="text-2xl" />
+            </div>
+          </div>
         </div>
         <div
           onClick={() => window.open(variables.upworkURL, "_blank")}
           className="flex cursor-pointer justify-center text-center"
         >
-          <SiUpwork className="text-3xl" />
+          <div>
+            <div className="cursor-pointer rounded-full bg-gray-light bg-opacity-[0.15] p-[0.4rem] text-sm text-white backdrop-blur-md transition-all hover:bg-opacity-100 hover:text-black">
+              <SiUpwork className="text-2xl" />
+            </div>
+          </div>
         </div>
       </div>
     </Reveal>

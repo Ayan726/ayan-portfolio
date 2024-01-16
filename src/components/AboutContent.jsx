@@ -34,7 +34,10 @@ const AboutContent = () => {
             bring your project to life and make an impact in the digital space.
             Ready to innovate together? 🚀
             <br />
-            <br />
+          </p>
+        </SlideReveal>
+        <SlideReveal delay="0.4">
+          <p className="text-gray-light">
             And always remember "I am batman!!" 🦇
           </p>
         </SlideReveal>

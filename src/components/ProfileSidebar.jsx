@@ -1,7 +1,7 @@
 import React from "react";
 import Reveal from "./framerMotionComponents/Reveal";
 import portfolio from "../assets/portfolio-pic.png";
-import variables from "../variables/variables";
+import { variables } from "../variables/variables";
 import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
 
@@ -28,19 +28,19 @@ const ProfileSidebar = () => {
           <ul className="mt-5 flex items-center justify-center gap-4">
             <li
               onClick={() => window.open(variables.instagramURL)}
-              className="cursor-pointer rounded-full bg-gray-light bg-opacity-[0.15] p-[0.4rem] text-sm text-white backdrop-blur-md transition-all hover:bg-opacity-50 hover:text-black"
+              className="cursor-pointer rounded-full bg-gray-light bg-opacity-[0.15] p-[0.4rem] text-sm text-white backdrop-blur-md transition-all hover:bg-opacity-100 hover:text-black"
             >
               <FaInstagram className="text-xl" />
             </li>
             <li
               onClick={() => window.open(variables.facebookURL, "_blank")}
-              className="cursor-pointer rounded-full bg-gray-light bg-opacity-[0.15] p-[0.4rem] text-sm text-white backdrop-blur-md transition-all hover:bg-opacity-50 hover:text-black"
+              className="cursor-pointer rounded-full bg-gray-light bg-opacity-[0.15] p-[0.4rem] text-sm text-white backdrop-blur-md transition-all hover:bg-opacity-100 hover:text-black"
             >
               <FaFacebookF className="text-xl" />
             </li>
             <li
               onClick={() => window.open(variables.linkedInURL)}
-              className="cursor-pointer rounded-full bg-gray-light bg-opacity-[0.15] p-[0.4rem] text-sm text-white backdrop-blur-md transition-all hover:bg-opacity-50 hover:text-black"
+              className="cursor-pointer rounded-full bg-gray-light bg-opacity-[0.15] p-[0.4rem] text-sm text-white backdrop-blur-md transition-all hover:bg-opacity-100 hover:text-black"
             >
               <FaLinkedinIn className="text-xl" />
             </li>
@@ -50,7 +50,7 @@ const ProfileSidebar = () => {
             onClick={() => {
               navigate("/contact");
             }}
-            className="mt-7 h-10 w-60 cursor-pointer rounded-2xl bg-gray-light bg-opacity-30 px-3 py-1 backdrop-blur-md transition-all hover:bg-opacity-20"
+            className="mt-7 h-10 w-60 cursor-pointer rounded-2xl bg-gray-light bg-opacity-20 px-3 py-1 backdrop-blur-md transition-all hover:bg-opacity-100 hover:text-black"
           >
             Contact me
           </button>

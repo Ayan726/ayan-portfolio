@@ -8,7 +8,7 @@ const Header = () => {
   const [hidden, setHidden] = useState(true);
 
   return (
-    <header className="z-20 mb-12 h-24 text-white">
+    <header className="z-20 md:mb-12 sm:mb-8 mb-6 h-24 text-white">
       <nav className="flex h-full w-full items-center justify-between">
         <NavLink
           to="/"

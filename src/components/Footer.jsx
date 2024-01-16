@@ -1,12 +1,8 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-import variables from "../variables/variables";
-import EmailIcon from "@mui/icons-material/Email";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import PhoneIcon from "@mui/icons-material/Phone";
+import { FaFacebookF, FaPhone } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import { FaFacebook } from "react-icons/fa";
-import { FaPhone } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
+import { variables } from "../variables/variables";
 
 const Footer = () => {
   return (
@@ -51,21 +47,27 @@ const Footer = () => {
       <ul className="mt-5 flex items-center justify-center gap-4 rounded-full px-6 leading-3 text-white no-underline">
         <li
           onClick={() => window.open(variables.gmail)}
-          className="cursor-pointer rounded-full bg-white p-[0.4rem] text-sm text-black"
+          className="flex cursor-pointer justify-center text-center"
         >
-          <MdEmail className="text-2xl" />
+          <div className="cursor-pointer rounded-full bg-gray-light bg-opacity-[0.15] p-[0.5rem] text-sm text-white backdrop-blur-md transition-all hover:bg-opacity-100 hover:text-black">
+            <MdEmail className="text-xl" />
+          </div>
         </li>
         <li
           onClick={() => window.open(variables.facebookURL, "_blank")}
-          className="cursor-pointer rounded-full bg-white p-[0.4rem] text-sm text-black"
+          className="flex cursor-pointer justify-center text-center"
         >
-          <FaFacebook className="text-2xl" />
+          <div className="cursor-pointer rounded-full bg-gray-light bg-opacity-[0.15] p-[0.5rem] text-sm text-white backdrop-blur-md transition-all hover:bg-opacity-100 hover:text-black">
+            <FaFacebookF className="text-xl" />
+          </div>
         </li>
         <li
           onClick={() => window.open(variables.phone)}
-          className="cursor-pointer rounded-full bg-white p-[0.4rem] text-sm text-black"
+          className="flex cursor-pointer justify-center text-center"
         >
-          <FaPhone className="text-2xl" />
+          <div className="cursor-pointer rounded-full bg-gray-light bg-opacity-[0.15] p-[0.5rem] text-sm text-white backdrop-blur-md transition-all hover:bg-opacity-100 hover:text-black">
+            <FaPhone className="text-xl" />
+          </div>
         </li>
       </ul>
     </div>
