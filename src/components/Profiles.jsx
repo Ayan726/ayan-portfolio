@@ -21,9 +21,9 @@ const Profiles = () => {
           className="flex cursor-pointer justify-center text-center"
         >
           <div>
-            <div className="cursor-pointer rounded-full bg-gray-light bg-opacity-[0.15] p-[0.4rem] text-sm text-white backdrop-blur-md transition-all hover:bg-opacity-100 hover:text-black">
+            <button className="cursor-pointer rounded-full bg-gray-light bg-opacity-[0.15] p-[0.4rem] text-sm text-white backdrop-blur-md transition-all hover:bg-opacity-100 hover:text-black">
               <FaLinkedinIn className="text-2xl" />
-            </div>
+            </button>
           </div>
         </div>
         <div
@@ -31,9 +31,9 @@ const Profiles = () => {
           className="flex cursor-pointer justify-center text-center"
         >
           <div>
-            <div className="cursor-pointer rounded-full bg-gray-light bg-opacity-[0.15] p-[0.4rem] text-sm text-white backdrop-blur-md transition-all hover:bg-opacity-100 hover:text-black">
+            <button className="cursor-pointer rounded-full bg-gray-light bg-opacity-[0.15] p-[0.4rem] text-sm text-white backdrop-blur-md transition-all hover:bg-opacity-100 hover:text-black">
               <FaInstagram className="text-2xl" />
-            </div>
+            </button>
           </div>
         </div>
         <div
@@ -41,9 +41,9 @@ const Profiles = () => {
           className="flex cursor-pointer justify-center text-center"
         >
           <div>
-            <div className="cursor-pointer rounded-full bg-gray-light bg-opacity-[0.15] p-[0.4rem] text-sm text-white backdrop-blur-md transition-all hover:bg-opacity-100 hover:text-black">
+            <button className="cursor-pointer rounded-full bg-gray-light bg-opacity-[0.15] p-[0.4rem] text-sm text-white backdrop-blur-md transition-all hover:bg-opacity-100 hover:text-black">
               <PiGithubLogoFill className="text-2xl" />
-            </div>
+            </button>
           </div>
         </div>
         <div
@@ -51,9 +51,9 @@ const Profiles = () => {
           className="flex cursor-pointer justify-center text-center"
         >
           <div>
-            <div className="cursor-pointer rounded-full bg-gray-light bg-opacity-[0.15] p-[0.4rem] text-sm text-white backdrop-blur-md transition-all hover:bg-opacity-100 hover:text-black">
+            <button className="cursor-pointer rounded-full bg-gray-light bg-opacity-[0.15] p-[0.4rem] text-sm text-white backdrop-blur-md transition-all hover:bg-opacity-100 hover:text-black">
               <SiLeetcode className="text-2xl" />
-            </div>
+            </button>
           </div>
         </div>
         <div
@@ -61,9 +61,9 @@ const Profiles = () => {
           className="flex cursor-pointer justify-center text-center"
         >
           <div>
-            <div className="cursor-pointer rounded-full bg-gray-light bg-opacity-[0.15] p-[0.4rem] text-sm text-white backdrop-blur-md transition-all hover:bg-opacity-100 hover:text-black">
+            <button className="cursor-pointer rounded-full bg-gray-light bg-opacity-[0.15] p-[0.4rem] text-sm text-white backdrop-blur-md transition-all hover:bg-opacity-100 hover:text-black">
               <SiFiverr className="text-2xl" />
-            </div>
+            </button>
           </div>
         </div>
         <div
@@ -71,9 +71,9 @@ const Profiles = () => {
           className="flex cursor-pointer justify-center text-center"
         >
           <div>
-            <div className="cursor-pointer rounded-full bg-gray-light bg-opacity-[0.15] p-[0.4rem] text-sm text-white backdrop-blur-md transition-all hover:bg-opacity-100 hover:text-black">
+            <button className="cursor-pointer rounded-full bg-gray-light bg-opacity-[0.15] p-[0.4rem] text-sm text-white backdrop-blur-md transition-all hover:bg-opacity-100 hover:text-black">
               <SiUpwork className="text-2xl" />
-            </div>
+            </button>
           </div>
         </div>
       </div>

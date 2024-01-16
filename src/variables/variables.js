@@ -2,12 +2,13 @@ import cryptobucks from "../assets/cryptobucks.png";
 import talkative from "../assets/talkative.png";
 import formex from "../assets/formex.png";
 import jobsLelo from "../assets/JobsLelo.png";
+import portfolioSite from "../assets/portfolio-site.png";
 
 export const variables = {
   resumeURL:
     "https://drive.google.com/file/d/1nnkYPdwhEXsAoKomIYmqjNxn6Im0mSyv/view?usp=sharing",
   linkedInURL: "https://www.linkedin.com/in/ayan-ghosh-sde/",
-  instagramURL: "https://www.instagram.com/u._again/",
+  instagramURL: "https://www.instagram.com/in.vincible._/",
   upworkURL: "#",
   githubURL: "https://github.com/Ayan726",
   leetcodeURL: "https://leetcode.com/Vengeance_/",
@@ -62,7 +63,8 @@ export const projects = [
     name: "Portfolio Site",
     summary:
       "A portfolio website to showcase my educational background and project works.",
-    image: jobsLelo,
+    image: portfolioSite,
+    site: "https://ayan-portfolio-psi.vercel.app/",
     github: "https://github.com/Ayan726/ayan-portfolio",
     tech: "React JS, Framer-motion",
   },

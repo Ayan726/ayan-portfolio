@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { motion, useInView, useAnimation } from "framer-motion";
 
-const SlideReveal = (props) => {
+const RightSlideReveal = (props) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
   const mainControls = useAnimation();
@@ -17,7 +17,7 @@ const SlideReveal = (props) => {
       <motion.div
         className="h-full"
         variants={{
-          init: { x: 200, opacity: 0 },
+          init: { x: -200, opacity: 0 },
           final: { x: 0, opacity: 1 },
         }}
         transition={{
@@ -33,4 +33,4 @@ const SlideReveal = (props) => {
   );
 };
 
-export default SlideReveal;
+export default RightSlideReveal;

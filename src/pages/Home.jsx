@@ -5,7 +5,6 @@ import MarqueeComponent from "../components/MarqueeComponent";
 import Portfolio from "../components/Portfolio";
 import Resume from "../components/Resume";
 import WhoAmI from "../components/WhoAmI";
-
 import Profiles from "../components/Profiles";
 
 const Home = () => {

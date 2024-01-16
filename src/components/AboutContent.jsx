@@ -36,11 +36,6 @@ const AboutContent = () => {
             <br />
           </p>
         </SlideReveal>
-        <SlideReveal delay="0.4">
-          <p className="text-gray-light">
-            And always remember "I am batman!!" 🦇
-          </p>
-        </SlideReveal>
       </div>
 
       <div className="flex flex-col gap-7">

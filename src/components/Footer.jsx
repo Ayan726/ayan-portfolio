@@ -49,25 +49,25 @@ const Footer = () => {
           onClick={() => window.open(variables.gmail)}
           className="flex cursor-pointer justify-center text-center"
         >
-          <div className="cursor-pointer rounded-full bg-gray-light bg-opacity-[0.15] p-[0.5rem] text-sm text-white backdrop-blur-md transition-all hover:bg-opacity-100 hover:text-black">
+          <button className="cursor-pointer rounded-full bg-gray-light bg-opacity-[0.15] p-[0.5rem] text-sm text-white backdrop-blur-md transition-all hover:bg-opacity-100 hover:text-black">
             <MdEmail className="text-xl" />
-          </div>
+          </button>
         </li>
         <li
           onClick={() => window.open(variables.facebookURL, "_blank")}
           className="flex cursor-pointer justify-center text-center"
         >
-          <div className="cursor-pointer rounded-full bg-gray-light bg-opacity-[0.15] p-[0.5rem] text-sm text-white backdrop-blur-md transition-all hover:bg-opacity-100 hover:text-black">
+          <button className="cursor-pointer rounded-full bg-gray-light bg-opacity-[0.15] p-[0.5rem] text-sm text-white backdrop-blur-md transition-all hover:bg-opacity-100 hover:text-black">
             <FaFacebookF className="text-xl" />
-          </div>
+          </button>
         </li>
         <li
           onClick={() => window.open(variables.phone)}
           className="flex cursor-pointer justify-center text-center"
         >
-          <div className="cursor-pointer rounded-full bg-gray-light bg-opacity-[0.15] p-[0.5rem] text-sm text-white backdrop-blur-md transition-all hover:bg-opacity-100 hover:text-black">
+          <button className="cursor-pointer rounded-full bg-gray-light bg-opacity-[0.15] p-[0.5rem] text-sm text-white backdrop-blur-md transition-all hover:bg-opacity-100 hover:text-black">
             <FaPhone className="text-xl" />
-          </div>
+          </button>
         </li>
       </ul>
     </div>
