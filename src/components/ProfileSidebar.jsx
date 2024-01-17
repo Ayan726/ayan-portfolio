@@ -10,7 +10,7 @@ const ProfileSidebar = () => {
 
   return (
     <Reveal>
-      <aside className="gradient flex min-h-[80dvh] flex-col items-center gap-8 rounded-3xl p-10 sm:min-h-[87dvh]">
+      <aside className="gradient flex min-h-[75vh] flex-col items-center gap-8 rounded-3xl p-10 sm:min-h-[87dvh]">
         <img
           src={portfolio}
           alt="my pic"

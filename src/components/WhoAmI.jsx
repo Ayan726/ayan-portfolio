@@ -15,7 +15,7 @@ const WhoAmI = () => {
         onMouseEnter={() => setHover(true)}
         className="gradient relative flex h-full w-full flex-col items-center justify-center gap-5 rounded-2xl px-14 pb-14 pt-6 sm:h-72 sm:flex-row sm:gap-10 sm:pb-10 lg:justify-between lg:gap-0"
       >
-        <div className="batman-gradient rounded-br-2xl rounded-tl-2xl bg-gray-light px-1 py-3">
+        <div className="batman-gradient rounded-br-2xl rounded-tl-2xl bg-gray-light px-1 py-3 h-40 w-44">
           <img src={Batman} alt="My pic" className="h-32 w-auto" />
         </div>
 

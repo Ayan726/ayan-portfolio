@@ -156,7 +156,7 @@ const Contact = () => {
         </div>
       </div>
       <Reveal classProp="w-full">
-        <div className="gradient relative min-h-[56dvh] flex-1 rounded-2xl p-8">
+        <div className="gradient relative min-h-[56vh] flex-1 rounded-2xl p-8">
           <GiMoonBats className="absolute right-5 top-1 z-0 text-[5rem] text-[#444444]" />
           <h1 className="mb-4 text-3xl sm:text-4xl">
             Let's work <span className="text-blue-600">together.</span>
