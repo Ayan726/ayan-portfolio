@@ -3,6 +3,7 @@ import talkative from "../assets/talkative.png";
 import formex from "../assets/formex.png";
 import jobsLelo from "../assets/JobsLelo.png";
 import portfolioSite from "../assets/portfolio-site.png";
+import codeCollabo from "../assets/CodeCollabo.png";
 
 export const variables = {
   resumeURL:
@@ -41,6 +42,16 @@ export const projects = [
   },
   {
     id: 2,
+    name: "Code-Collabo",
+    summary:
+      "A real time collaborative code editor which enables users to join a room and write Javascript code in real time.",
+    image: codeCollabo,
+    site: "https://code-collabo.onrender.com/",
+    github: "https://github.com/Ayan726/Code-Collabo",
+    tech: "React, Node, Socket.io",
+  },
+  {
+    id: 3,
     name: "Talkative",
     summary:
       "A real time chatting application, enables registered users to chat and exchange static files among themselves.",
@@ -50,7 +61,7 @@ export const projects = [
     tech: "React JS, Firebase",
   },
   {
-    id: 3,
+    id: 4,
     name: "Jobs Lelo API",
     summary:
       "A solution for managing and retrieving job posts for startups instead of unorganized WhatsApp group job posts.",
@@ -59,7 +70,7 @@ export const projects = [
     tech: "Node JS, Express JS, Mongodb",
   },
   {
-    id: 4,
+    id: 5,
     name: "Portfolio Site",
     summary:
       "A portfolio website to showcase my educational background and project works.",
